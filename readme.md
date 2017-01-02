@@ -4,7 +4,7 @@ Running Node all the way from development to production on Heroku.
 
 Check it out at [http://node-articles-nlp.herokuapp.com/](http://node-articles-nlp.herokuapp.com/).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/heroku-examples/node-articles-nlp)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/blackjmxx/node-articles-nlp)
 
 ## Local dependencies
 
@@ -29,7 +29,7 @@ $ npm install
 
 Deploying is easy - just use the Heroku Button:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/heroku-examples/node-articles-nlp)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/blackjmxx/node-articles-nlp)
 
 If you'd rather clone locally and then deploy through the CLI, you can do that too:
 
