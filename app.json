@@ -34,6 +34,10 @@
     "COOKIE_SECRET": {
       "description": "a secret key for signed cookies",
       "generator": "secret"
+    },
+     "buildpacks": [
+    {
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
     }
   }
 }
