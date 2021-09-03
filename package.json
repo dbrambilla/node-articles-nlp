@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nf start",
     "reset": "script/reset",
-    "benchmark": "script/benchmark"
+    "benchmark": "script/benchmark",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Hunter Loftis <hunter@heroku.com>",
   "repository": "hunterloftis/node-production",
@@ -22,7 +24,7 @@
     "jade": "^1.5.0",
     "lodash": "^2.4.1",
     "logfmt": "^1.1.2",
-    "mongoose": "~3.8.13",
+    "mongoose": "~6.0.4",
     "mongoose-cache": "git://github.com/hunterloftis/mongoose-cache",
     "mongoose-timestamp": "^0.3.0",
     "morgan": "^1.2.0",
@@ -32,11 +34,13 @@
     "request": "^2.79.0",
     "serve-favicon": "~2.0.1",
     "summarize": "^1.5.0",
-    "superagent": "^0.18.2",
-    "throng": "^1.0.0"
+    "superagent": "^1.2.0",
+    "throng": "^1.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {},
   "engines": {
     "iojs": "1.0.x"
-  }
+  },
+  "snyk": true
 }
